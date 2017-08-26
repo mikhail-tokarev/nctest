@@ -1,6 +1,6 @@
 #!/bin/sh
 
 echo "================================="
-echo $NC_PROJECT_ID
+echo $NEVERCODE_PROJECT_ID
 echo "================================="
 
