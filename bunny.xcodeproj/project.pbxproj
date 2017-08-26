@@ -12,19 +12,7 @@
 		387029541DE479500008D573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029521DE479500008D573 /* Main.storyboard */; };
 		387029561DE479500008D573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387029551DE479500008D573 /* Assets.xcassets */; };
 		387029591DE479500008D573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029571DE479500008D573 /* LaunchScreen.storyboard */; };
-		387029641DE479500008D573 /* bunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387029631DE479500008D573 /* bunnyTests.swift */; };
-		A627BADA1F51A4CF00DA12FB /* bunny.app in Resources */ = {isa = PBXBuildFile; fileRef = 3870294B1DE479500008D573 /* bunny.app */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		387029601DE479500008D573 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 387029431DE479500008D573 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3870294A1DE479500008D573;
-			remoteInfo = "ios-test2";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3870294B1DE479500008D573 /* bunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,20 +22,12 @@
 		387029551DE479500008D573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387029581DE479500008D573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3870295A1DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3870295F1DE479500008D573 /* bunnyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bunnyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387029631DE479500008D573 /* bunnyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bunnyTests.swift; sourceTree = "<group>"; };
 		387029651DE479500008D573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		387029481DE479500008D573 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3870295C1DE479500008D573 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				3870294B1DE479500008D573 /* bunny.app */,
-				3870295F1DE479500008D573 /* bunnyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,24 +98,6 @@
 			productReference = 3870294B1DE479500008D573 /* bunny.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3870295E1DE479500008D573 /* bunnyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "bunnyTests" */;
-			buildPhases = (
-				3870295B1DE479500008D573 /* Sources */,
-				3870295C1DE479500008D573 /* Frameworks */,
-				3870295D1DE479500008D573 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				387029611DE479500008D573 /* PBXTargetDependency */,
-			);
-			name = bunnyTests;
-			productName = "ios-test2Tests";
-			productReference = 3870295F1DE479500008D573 /* bunnyTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,12 +112,6 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = T44NESVEFN;
 						ProvisioningStyle = Automatic;
-					};
-					3870295E1DE479500008D573 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = T44NESVEFN;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 3870294A1DE479500008D573;
 					};
 				};
 			};
@@ -174,7 +129,6 @@
 			projectRoot = "";
 			targets = (
 				3870294A1DE479500008D573 /* bunny */,
-				3870295E1DE479500008D573 /* bunnyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -190,14 +144,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3870295D1DE479500008D573 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A627BADA1F51A4CF00DA12FB /* bunny.app in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -210,23 +156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3870295B1DE479500008D573 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				387029641DE479500008D573 /* bunnyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		387029611DE479500008D573 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3870294A1DE479500008D573 /* bunny */;
-			targetProxy = 387029601DE479500008D573 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		387029521DE479500008D573 /* Main.storyboard */ = {
@@ -369,36 +299,6 @@
 			};
 			name = Release;
 		};
-		387029771DE479500008D573 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T44NESVEFN;
-				INFOPLIST_FILE = "ios-test2Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunny.app/bunny";
-			};
-			name = Debug;
-		};
-		387029781DE479500008D573 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = T44NESVEFN;
-				INFOPLIST_FILE = "ios-test2Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.greenhouseci.ios-test2Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bunny.app/bunny";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,15 +316,6 @@
 			buildConfigurations = (
 				387029741DE479500008D573 /* Debug */,
 				387029751DE479500008D573 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		387029761DE479500008D573 /* Build configuration list for PBXNativeTarget "bunnyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				387029771DE479500008D573 /* Debug */,
-				387029781DE479500008D573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
