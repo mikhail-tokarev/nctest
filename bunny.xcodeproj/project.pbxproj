@@ -13,6 +13,7 @@
 		387029561DE479500008D573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387029551DE479500008D573 /* Assets.xcassets */; };
 		387029591DE479500008D573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387029571DE479500008D573 /* LaunchScreen.storyboard */; };
 		387029641DE479500008D573 /* bunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387029631DE479500008D573 /* bunnyTests.swift */; };
+		A627BADA1F51A4CF00DA12FB /* bunny.app in Resources */ = {isa = PBXBuildFile; fileRef = 3870294B1DE479500008D573 /* bunny.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -193,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A627BADA1F51A4CF00DA12FB /* bunny.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
